@@ -4,3 +4,4 @@ To obtain a high school degree (electricity: electronics), a final project regar
 
 ## Overall block diagram
 
+![](Images/BlockDiagram.png)
