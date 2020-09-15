@@ -48,10 +48,11 @@ def getPlayers():
 
     return {"players":playerListOfDicts}
 
-@app.route('/removeplayer', method=['POST'])
+@app.route('/removeplayer', methods=['POST'])
 def removePlayer():
     print("removing player")
-
+    data = request.form
+    print(data)
 
 
 if __name__ == "__main__":
