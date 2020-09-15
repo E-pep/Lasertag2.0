@@ -5,3 +5,7 @@ To obtain a high school degree (electricity: electronics), a final project regar
 ## Overall block diagram
 
 ![](Images/BlockDiagram.png)
+
+## Simple ER Diagram to visualise the info of our classes
+
+![](Images/ERDiagram/ERDiagram.png)
