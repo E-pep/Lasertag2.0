@@ -1,0 +1,1 @@
+{"GameType": "Deadmatch", "Duration": 10, "MaxPoints": 7500, "Teams": [{"TeamID": 1, "TeamName": "Red", "TeamColor": "Red"}, {"TeamID": 2, "TeamName": "Blue", "TeamColor": "Blue"}], "Players": [{"gunID": 1, "playerName": "Player1", "Kills": 1, "Points": 1, "Deaths": 1}, {"gunID": 2, "playerName": "Player2", "Kills": 0, "Points": 0, "Deaths": 0}]}

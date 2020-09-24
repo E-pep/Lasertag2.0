@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fd58a8a-7911-4c66-ba23-366b5a3abe64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../GUIFiles/V1/V1/V1.pro.user" beforeDir="false" afterPath="$PROJECT_DIR$/../../GUIFiles/V1/V1/V1.pro.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lasertag.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lasertag.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,7 +124,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Lasertag.py</url>
-          <line>69</line>
+          <line>89</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

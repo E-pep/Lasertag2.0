@@ -3,11 +3,26 @@ class Player:
     def __init__(self, gunID, playerName):
         self.gunID = gunID
         self.playerName = playerName
+        self.Kills = 0
+        self.Points = 0
+        self.Deaths = 0
     def serialize(self):
         return{
         'gunID' : self.gunID,
         'playerName' : self.playerName,
+        'Kills' : self.Kills,
+        'Points' : self.Points,
+        'Deaths' : self.Deaths
         }
+
+    def AddPoint(self):
+        self.Points = self.Points + 1
+
+    def AddKill(self):
+        self.Kills = self.Kills + 1
+
+    def AddDeath(self):
+        self.Deaths = self.Deaths + 1
 
 # class for each team
 class Team:
@@ -50,7 +65,27 @@ class Game:
         'GameType' : self.GameType,
         'Duration' : self.Duration,
         'MaxPoints' : self.MaxPoints,
-        'Players' : self.players
+        'Teams' : [obj.serialize() for obj in self.Teams],
+        'Players' : [obj.serialize() for obj in self.Players]
         }
 
+    def addPointToPlayer(self, GunID):
+        for i,player in enumerate(self.Players):
+            if player.gunID == GunID:
+                self.Players[i].AddPoint()
+                return True
+            return False
 
+    def addKillToPlayer(self, GunID):
+        for i,player in enumerate(self.Players):
+            if player.gunID == GunID:
+                self.Players[i].AddKill()
+                return True
+            return False
+
+    def addDeathToPlayer(self, GunID):
+        for i,player in enumerate(self.Players):
+            if player.gunID == GunID:
+                self.Players[i].AddDeath()
+                return True
+            return False
